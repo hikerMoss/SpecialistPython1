@@ -31,3 +31,14 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+
+
+
+a = input("prise: ")
+count = 1
+nomer = 1
+
+while count <= 20:
+    print(nomer,": ", a * count, "rub")
+    count += 1
+    nomer += 1
