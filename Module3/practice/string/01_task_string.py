@@ -8,3 +8,11 @@ surname = input("Фамилия: ")
 
 
 print(name, surname)
+
+name = input("Имя: ")
+surname = input("Фамилия: ")
+
+n = name.istitle
+s = surname.istitle
+
+print(n, s)
