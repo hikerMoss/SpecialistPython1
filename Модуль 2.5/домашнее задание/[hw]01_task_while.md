@@ -39,3 +39,12 @@ n = 12
 # TODO: you code here...
 ```
 
+a = float(input("prise: "))
+count = 1
+nomer = 1
+
+while count <= 20:
+    b = a * count
+    print(nomer,": ", b, "rub")
+    count += 1
+    nomer += 1
