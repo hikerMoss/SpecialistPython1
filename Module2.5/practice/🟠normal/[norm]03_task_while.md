@@ -20,7 +20,15 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+# n = int(input("stupene: "))
+i = 1
+total = 0
+
+while i <= n:
+    b = i * i
+    total += b
+    print(total)
+    i += 1
 ```
 
 ---
